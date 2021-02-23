@@ -4,9 +4,9 @@
 O Projeto tem como objetivo automatizar o processo de chamada escolar utilizando o reconhecimento facial.
 
 ## Benefícios
- -Erradicar o uso de papel nesse processo
- -Tornar automático a Chamada Escolar
- -Diminuir o tempo da chamada e melhorar o aproveitamento de aula 
+ - Erradicar o uso de papel nesse processo
+ - Tornar automático a Chamada Escolar
+ - Diminuir o tempo da chamada e melhorar o aproveitamento de aula 
  
  ## Como Usar
  
@@ -19,7 +19,8 @@ Ao implementar este projeto é necessário uma carga de dados feita pela institu
 A pincipal função desse aplicativo é administar os dados do banco, podendo atualizar, inserir, e deletar. Nele também é possivel visualizar as faltas dos alunos.
 
 para utilizar o aplicativo é necessário ter um registro de login (presente na tabela login do banco de dados), tendo dois tipos de liberdade para acesso: consulta (onde o usuário pode apenas consultar os dados existentes) e administrador (onde é possível adicionar, atualizar, excluir e consultar os dados)
-Login Consulta: secretaria 
+
+Login Consulta: secretaria
 senha: 123
 
 Login admin: admin
