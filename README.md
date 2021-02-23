@@ -51,6 +51,7 @@ Primary key Professores = chapa
 
 
 Primary key = id
+
 ![Aluno](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/grade_escolar-c%23.png)
 
 
