@@ -49,6 +49,7 @@ Primary key Disciplinas = Disciplina
 Primary key Professores = chapa
 ![Aluno](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/cursos-c%23.png)
 
+
 Primary key = id
 ![Aluno](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/grade_escolar-c%23.png)
 
