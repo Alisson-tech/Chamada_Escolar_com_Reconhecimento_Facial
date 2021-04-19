@@ -1,3 +1,6 @@
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial)
+
 # Chamada_Escolar_com_Reconhecimento_Facial
 
 ## Autores
