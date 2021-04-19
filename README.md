@@ -1,5 +1,10 @@
 # Chamada_Escolar_com_Reconhecimento_Facial
 
+## Autores
+Alisson Fantin Rodrigues <br />
+Victor Monteiro de Oliveira <br />
+Isabela Rosa <br />
+
 ## Objetivos
 O Projeto tem como objetivo automatizar o processo de chamada escolar utilizando o reconhecimento facial.
 
@@ -87,80 +92,80 @@ caso seu objetivo seja aprender sobre reconhecimento facial indicamos que leia n
 Tambem indicamos o curso de Reconhecimento Facial da Udemy, graças a ele foi possivel desenvolver o projeto: 
 link do curso: https://www.udemy.com/course/reconhecimento-facial-com-python-e-opencv/
 ```
-Antes de começar, vale ressalter que para o aplicativo funcionar você deve importar o banco de dados,
-descrito no primeiro tópico desse arquivo.
+Antes de começar, vale ressaltar que para o aplicativo funcionar você deve importar o banco de dados <br />
+descrito no primeiro tópico desse arquivo. <br />
 
 
-o primeiro passo muito importante para abrir o executável, é preencher o arquivo email.txt.
-você deve preencher da seguinte maneira: email-do-remente;senha-desse-email; email-destinatario.
-o Email funciona para contatar a secretaria quando um aluno chega atrasado ou não e reconhecido.
+o primeiro passo muito importante para abrir o executável, é preencher o arquivo email.txt. <br />
+você deve preencher da seguinte maneira: email-do-remente;senha-desse-email; email-destinatario. <br />
+o Email funciona para contatar a secretaria quando um aluno chega atrasado ou não é reconhecido. <br />
 
 Arquivo de email
 ![email](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/email-txt.png)
 
-Outro passo importante é criar a pasta C:\cpdb\fotos para armazenar as fotos de treinamento do algoritmo.
-crie a pasta "cpdb" no seu dico local, dentro da pasta cpdb crie e pasta "fotos".
+Outro passo importante é criar a pasta C:\cpdb\fotos para armazenar as fotos de treinamento do algoritmo. <br />
+crie a pasta "cpdb" no seu dico local, dentro da pasta cpdb crie e pasta "fotos". <br />
 
 Pasta Fotos
 ![Pasta-Fotos](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Pasta.png)
 
-Agora podemos utilizar o aplicativo, abra-o e então será mostrado as 3 funções: capturar, treinar e reconhecer.
+Agora podemos utilizar o aplicativo, abra-o e então será mostrado as 3 funções: capturar, treinar e reconhecer. <br />
 
-Tela Principal
+Tela Principal <br />
 ![Tela-Principal](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Tela-Principal-Python.png)
 
-Capturar: Primeiro deve informar o RA do aluno, esse RA deve estar cadastrado no Banco de dados.
+Capturar: Primeiro é necessário informar o RA do aluno, esse RA deve estar cadastrado no Banco de dados. <br />
 
-Tela Captura
+Tela Captura <br />
 ![Tela-Captura-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Tela-Capturar-Python.png)
 
-em seguida abrirá a janela da webcam, Capture 15 fotos do aluno.
-as fotos são capturadas pela letra "q" do teclado.
-para capturar a foto, o algoritmo deve detectar o rosto e os olhos do aluno.
-e indicado no canto superior esquerdo a quantidade de fotos.
-a letra "w" do teclado fecha a janela antes de capturar as fotos.
+- em seguida abrirá a janela da webcam, Capture 15 fotos do aluno.
+- as fotos são capturadas pela letra "q" do teclado.
+- para capturar a foto, o algoritmo deve detectar o rosto e os olhos do aluno.
+- é indicado no canto superior esquerdo a quantidade de fotos.
+- a letra "w" do teclado fecha a janela antes de capturar as fotos.
 
-Capturar
+Capturar <br />
 ![Captura-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Capturar-Python.png)
 
-Treinamento: basta clicar no botão treinar, e então sera gerado um arquivo "classificadorEign.yml".
-Só é possivel treinar, se na pasta C:\cpdb\fotos estiver 15 fotos de dois ou mais alunos.
+Treinamento: basta clicar no botão treinar, e então sera gerado um arquivo "classificadorEign.yml". <br />
+Só é possivel treinar, se na pasta C:\cpdb\fotos estiver 15 fotos de dois ou mais alunos. <br />
 
-Treinamento
+Treinamento <br />
 ![Treinar-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Treinamento-Python.png)
 
-Tela Reconhecimento: nessa opção simulamos um professor onde ele digita a sala que está dando aula e coloca o aplicativo pra rodar.
-Para reconhecer você insira a sala ao qual você foi cadastro no banco de dados.
-O aplicativo da falta para todos os alunos e vai alterando conforme ele reconhece.
+Tela Reconhecimento: nessa opção simulamos um professor onde ele digita a sala que está dando aula e coloca o aplicativo para rodar. <br />
+Para reconhecer você insire a sala ao qual você foi cadastrado no banco de dados. <br />
+O aplicativo dá falta para todos os alunos e vai colocando presença conforme ele reconhece. <br />
 
-Tela Reconhecer
+Tela Reconhecer <br />
 ![Tela-Reconhecer-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Tela-Reconhecimento-Python.png)
 
-Após informar a sala abrirá a webcam, e então ao detectar o rosto o algoritmo já consegue reconhecer.
+Após informar a sala abrirá a webcam, e então ao detectar o rosto o algoritmo já consegue reconhecer. <br />
 
-Reconhecer
+Reconhecer <br />
 ![Reconhecer-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Reconhecimento-Python.png)
 
-Como ja dito anteriormente o algoritmo manda email caso o aluno esteja atrasado
-para isso foi levado em conta que:
-se o aluno for da turma A - entrada a sala 7h00 com 10 minutos de tolerância.
-se o aluno for da turma B- Entrada 13h30 com 10 minutos de tolerância.
+Como ja dito anteriormente o algoritmo manda email caso o aluno esteja atrasado <br />
+para isso foi levado em conta que: <br />
+se o aluno for da turma A - entrada a sala 7h00 com 10 minutos de tolerância. <br />
+se o aluno for da turma B- Entrada 13h30 com 10 minutos de tolerância. <br />
 
-Email Aluno Atrasado
+Email Aluno Atrasado <br />
 ![email-atrasado-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Aluno-Atrasado.png)
 
 
-o algoritmo tambem captura foto do aluno nao reconhecido e envia um email.
+o algoritmo tambem captura foto do aluno nao reconhecido e envia um email. <br />
 
 
-Email Aluno não reconhecido
+Email Aluno não reconhecido <br />
 ![email-nãoRec-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Aluno-NaoRec.png)
 
  ## Informações adicionais:
  
- O aplicativo está na versão mais basica, ou seja a opção de medir a temperatura como mostra o video no youtube nao esta nessa versão.
+ O aplicativo está na versão mais basica, ou seja a opção de medir a temperatura como mostra o video no youtube nao esta nessa versão. <br />
  
- O algoritmo de reconhecimento Facial foi treinado usando os parâmetros padrão, o que os torna menos eficaz.
- Isso porque os parâmetros variam com cada situação: webcam utilizada, luminosidade, etc. 
+ O algoritmo de reconhecimento Facial foi treinado usando os parâmetros padrão, o que os torna menos eficaz. <br />
+ Isso porque os parâmetros variam com cada situação: webcam utilizada, luminosidade, etc.  <br />
  Para mais informações leia nosso relatório de pesquisa. 
 
