@@ -102,6 +102,7 @@ descrito no primeiro tópico desse arquivo. <br />
 o primeiro passo muito importante para abrir o executável, é preencher o arquivo email.txt. <br />
 você deve preencher da seguinte maneira: email-do-remente;senha-desse-email; email-destinatario. <br />
 o Email funciona para contatar a secretaria quando um aluno chega atrasado ou não é reconhecido. <br />
+é importante ativar o Login por protocolo smtp no seu email, ou então não será possivel executar o aplicativo <br />
 
 Arquivo de email
 ![email](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/email-txt.png)
@@ -148,6 +149,7 @@ Após informar a sala abrirá a webcam, e então ao detectar o rosto o algoritmo
 
 Reconhecer <br />
 ![Reconhecer-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Reconhecimento-Python.png)
+
 
 Como ja dito anteriormente o algoritmo manda email caso o aluno esteja atrasado <br />
 para isso foi levado em conta que: <br />
