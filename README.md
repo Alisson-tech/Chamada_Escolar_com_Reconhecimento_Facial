@@ -96,23 +96,23 @@ você deve preencher da seguinte maneira: email-do-remente;senha-desse-email; em
 o Email funciona para contatar a secretaria quando um aluno chega atrasado ou não e reconhecido.
 
 Arquivo de email
-![email](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/email-txt.PNG)
+![email](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/email-txt.png)
 
 Outro passo importante é criar a pasta C:\cpdb\fotos para armazenar as fotos de treinamento do algoritmo.
 crie a pasta "cpdb" no seu dico local, dentro da pasta cpdb crie e pasta "fotos".
 
 Pasta Fotos
-![Pasta-fotos](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Pasta.PNG)
+![Pasta-Fotos](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Pasta.png)
 
 Agora podemos utilizar o aplicativo, abra-o e então será mostrado as 3 funções: capturar, treinar e reconhecer.
 
 Tela Principal
-![Tela-Pincipal-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Tela-Principal-Python.PNG)
+![Tela-Principal](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Tela-Principal-Python.png)
 
 Capturar: Primeiro deve informar o RA do aluno, esse RA deve estar cadastrado no Banco de dados.
 
 Tela Captura
-![Tela-Captura-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Tela-Capturar-Python.PNG)
+![Tela-Captura-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Tela-Capturar-Python.png)
 
 em seguida abrirá a janela da webcam, Capture 15 fotos do aluno.
 as fotos são capturadas pela letra "q" do teclado.
@@ -121,25 +121,25 @@ e indicado no canto superior esquerdo a quantidade de fotos.
 a letra "w" do teclado fecha a janela antes de capturar as fotos.
 
 Capturar
-![Captura-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Capturar-Python.PNG)
+![Captura-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Capturar-Python.png)
 
 Treinamento: basta clicar no botão treinar, e então sera gerado um arquivo "classificadorEign.yml".
 Só é possivel treinar, se na pasta C:\cpdb\fotos estiver 15 fotos de dois ou mais alunos.
 
 Treinamento
-![Treinar-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Treinamento-Python.PNG)
+![Treinar-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Treinamento-Python.png)
 
 Tela Reconhecimento: nessa opção simulamos um professor onde ele digita a sala que está dando aula e coloca o aplicativo pra rodar.
 Para reconhecer você insira a sala ao qual você foi cadastro no banco de dados.
 O aplicativo da falta para todos os alunos e vai alterando conforme ele reconhece.
 
 Tela Reconhecer
-![Tela-Reconhecer-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Tela-Reconhecimento-Python.PNG)
+![Tela-Reconhecer-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Tela-Reconhecimento-Python.png)
 
 Após informar a sala abrirá a webcam, e então ao detectar o rosto o algoritmo já consegue reconhecer.
 
 Reconhecer
-![Reconhecer-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Reconhecimento-Python.)
+![Reconhecer-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Reconhecimento-Python.png)
 
 Como ja dito anteriormente o algoritmo manda email caso o aluno esteja atrasado
 para isso foi levado em conta que:
@@ -147,14 +147,14 @@ se o aluno for da turma A - entrada a sala 7h00 com 10 minutos de tolerância.
 se o aluno for da turma B- Entrada 13h30 com 10 minutos de tolerância.
 
 Email Aluno Atrasado
-![email-atrasado-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Aluno-Atrasado.)
+![email-atrasado-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Aluno-Atrasado.png)
 
 
 o algoritmo tambem captura foto do aluno nao reconhecido e envia um email.
 
 
 Email Aluno não reconhecido
-![email-nãoRec-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Aluno-NaoRec.)
+![email-nãoRec-Python](https://github.com/Alisson-tech/Chamada_Escolar_com_Reconhecimento_Facial/blob/master/img/Aluno-NaoRec.png)
 
  ## Informações adicionais:
  
